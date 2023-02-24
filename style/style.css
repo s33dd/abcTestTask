@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error-message {
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.error-text {
+    display: inline;
+}
+
+.wrapper form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    margin-top: 20px;
+    text-align: center;
+    row-gap: 10px;
+}
+
+.information__left, .information__price, .information__name {
+    display: flex;
+    flex-direction: column;
+}
